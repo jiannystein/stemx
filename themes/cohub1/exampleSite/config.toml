@@ -1,19 +1,19 @@
-baseURL = 'https://stemx.netlify.app'
+baseURL = 'https://cohub-hugo.netlify.app'
 languageCode = 'en-us'
 paginate = 6
-theme= "coHub1"
-title = 'StemX - Empowering Health, Elevating Lives'
+theme= "coHub"
+title = 'coHub'
  
 
   # Main Menu
-  # [[menu.Main]]
-  # name = "Exhibition"
-  # url= "#gallery"
-  # weight = 1
-  # [[menu.Main]]
-  # name = "Feature"
-  # url= "#service"
-  # weight = 1
+  [[menu.Main]]
+  name = "Exhibition"
+  url= "#gallery"
+  weight = 1
+  [[menu.Main]]
+  name = "Feature"
+  url= "#service"
+  weight = 1
   [[menu.Main]]
   name = "About"
   url= "/about/"
@@ -22,10 +22,10 @@ title = 'StemX - Empowering Health, Elevating Lives'
   name = "Blog"
   url= "#blog"
   weight = 4
-  # [[menu.Main]]
-  # name = "Pricing"
-  # url= "#pricing"
-  # weight = 5
+  [[menu.Main]]
+  name = "Pricing"
+  url= "#pricing"
+  weight = 5
   [[menu.Main]]
   name = "FAQ"
   url= "#faq"
@@ -49,7 +49,7 @@ title = 'StemX - Empowering Health, Elevating Lives'
   # theme_overrides = "css/overrides.css"
   aboutPageURL = "blog"
   contactLink = "contact"
-  copyright = "© {year} <a href=\"https://StemXelll.com/\" target=\"_blank\">StemXelll </a>"
+  copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
   fabFormURL =  "https://fabform.io/f/u00kv3-"
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/logo.png"
