@@ -1,1 +1,4 @@
 
+[submodule "themes/coHub"]
+	path = themes/coHub
+	url = https://github.com/StaticMania/hugo-cohub.git
